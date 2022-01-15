@@ -1,0 +1,50 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+  align-items: self;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.searchInput {
+  color: #219a6f;
+  background-color: #e4e7eb;
+  border-radius: 8px;
+  padding: 10px;
+  border-width: 0px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputele {
+  height: 30px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+}
